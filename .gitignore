@@ -1,19 +1,2 @@
-# Dependencies
-node_modules/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build output
-build/
-dist/
-
-# Local environment settings
-.env
-.env.local
-
-# OS-specific files
-.DS_Store
-Thumbs.db
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
